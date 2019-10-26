@@ -1,5 +1,6 @@
 package ch07.exam01;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exam01 {
@@ -23,7 +24,16 @@ public class Exam01 {
 
 			// 1-2. 사용자 입력 대기
 			Scanner s = new Scanner(System.in);
-			int inputNum = s.nextInt();
+			
+			int inputNum = 0;
+			try {
+				inputNum = s.nextInt();
+			} catch(InputMismatchException e2) {
+				System.out.println("잘못 입력되었습니다.");
+			} catch(Exception e3) {
+				
+			}
+			
 			switch(inputNum) {
 			case Exam01.INSERT: 
 				// 입력 메소드 실행

@@ -1,18 +1,27 @@
+import java.awt.FlowLayout;
 
-// 요구되는 개발@@@능력
-// 1. 제어문 (조건)
-// 2. 라이브러리 활용
-// 3. 수학
-import java.util.Random; // 다른 위치에 존재하는 라이브러리 가져오기
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
 public class Test { // 실행 : Ctrl + F11
-	// 주석 (comment)
-	// main 입력 후 Ctrl + Space (main method 선택)
 	public static void main(String[] args) {
-		int a = 10;
-		a += 3;
+		JFrame j = new JFrame();
+		j.setLayout(new FlowLayout());
 		
-		// a = a + 3;
-		System.out.println(a);
+		JButton btn = new JButton("버튼");
+//		btn.setBackground(Color.RED);
+		j.add(btn);
+
+		JButton btn2 = new JButton("버튼");
+//		btn.setBackground(Color.RED);
+		j.add(btn2);
+		
+		JButton btn3 = new JButton("버튼");
+//		btn.setBackground(Color.RED);
+		j.add(btn3);
+		
+		j.setSize(300, 200);
+		j.setVisible(true);
 	}
 }
 

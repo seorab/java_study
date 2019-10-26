@@ -2,10 +2,11 @@ package ch07;
 
 public class Bus extends Car {
 	char color = 'R';
-	Bus() {
-		System.out.println("SportsCar °´Ã¼ »ý¼º");
+
+	@Override
+	void move() {
+		// TODO Auto-generated method stub
+		
 	}
-	void load() {
-		System.out.println("Å¾½Â");
-	}
+	
 }

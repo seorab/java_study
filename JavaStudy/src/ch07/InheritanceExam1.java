@@ -2,7 +2,7 @@ package ch07;
 
 public class InheritanceExam1 {
 	static void move(Car c) {
-		
+		c.move();
 	}
 	
 	public static void main(String[] args) {

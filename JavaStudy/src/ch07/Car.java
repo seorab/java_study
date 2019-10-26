@@ -1,6 +1,6 @@
 package ch07;
 
-public class Car {
+public abstract class Car {
 	int tire = 4;
 	int door = 2;
 
@@ -8,9 +8,7 @@ public class Car {
 		System.out.println("Car 객체 생성");
 	}
 
-	void move() {
-		System.out.println("이동");
-	}
+	abstract void move();
 
 	public int getTire() {
 		return tire;

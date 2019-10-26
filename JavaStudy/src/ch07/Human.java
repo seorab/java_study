@@ -4,7 +4,11 @@ public class Human {
 	char type;
 	String name;
 	int age = 0;
+	int score = 100;
+	
 	public char getType() {
+		int score = 10;
+		System.out.println(score);
 		return type;
 	}
 	public void setType(char type) {
