@@ -1,10 +1,10 @@
 package ch07;
 
 public class Book {
-	private String 力格 = null;
-	private String 免魄荤;
-	private String 历磊;
-	private int price = 0;
+	String 力格 = null;
+	String 免魄荤;
+	String 历磊;
+	int price = 0;
 	public String get力格() {
 		return 力格;
 	}

@@ -10,4 +10,10 @@ public class SportsCar extends Car {
 	void openSunloof() {
 		System.out.println("Ω„∑Á«¡ ø≠∏≤");
 	}
+
+	@Override
+	void move() {
+		// TODO Auto-generated method stub
+		
+	}
 }
