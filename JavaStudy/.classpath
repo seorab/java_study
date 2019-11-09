@@ -5,5 +5,7 @@
 	<classpathentry kind="lib" path="json-20190722.jar"/>
 	<classpathentry kind="lib" path="jsoup-1.12.1.jar"/>
 	<classpathentry kind="lib" path="jxl.jar"/>
+	<classpathentry kind="lib" path="activation.jar"/>
+	<classpathentry kind="lib" path="mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
