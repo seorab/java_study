@@ -25,9 +25,12 @@ public class WaterMark5 {
 		
 		int x = sourceImage.getWidth() - watermarkImage.getWidth();
 		int y = (sourceImage.getHeight() - watermarkImage.getHeight()) / 2;
-//원본 이미지에 워터마크 이미지 그리기
+//원본 이미지에 워터마크 이미지 그리기WT
 		g.drawImage(watermarkImage, x, y, null);
 //새로운 파일로 저장
 		ImageIO.write(sourceImage, "jpg", new File("image/wm5c.jpg"));
 	}
 }
+
+
+
